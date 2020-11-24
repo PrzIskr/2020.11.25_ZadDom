@@ -5,13 +5,13 @@
 
 import copy
 di = {'one': [1], 'two': [2], 'three': [3], 'four': [4]}
-#diCopy = di.copy() # kopiowanie plytkie tworzy refrencje do oryginalu w kopii
-diCopy = copy.deepcopy(di)
+#di_copied = di.copy() # kopiowanie plytkie tworzy refrencje do oryginalu w kopii
+di_copied = copy.deepcopy(di)
 
 print(di)
-print(diCopy)
+print(di_copied)
 
 di['four'][0] = 'cztery'
 
 print(di)
-print(diCopy)
+print(di_copied)
