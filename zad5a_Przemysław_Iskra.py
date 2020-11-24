@@ -1,7 +1,7 @@
 #Przemysław Iskra
 #nr almumu: 145863
 #grupa: L6
-# zadanie 5
+# zadanie 5a
 
 name_list = ['Damian', 'Ola', 'Barbara', 'Robert', 'Zygmunt', 'Ewa']
 
